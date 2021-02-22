@@ -1,4 +1,5 @@
 """
+爬取 Maoyan 电影 top 100 的相关信息。
 link: https://maoyan.com/board/4
 分析: 第二页为： link: https://maoyan.com/board/4?offset=10
 """
