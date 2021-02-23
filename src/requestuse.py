@@ -90,5 +90,5 @@ if __name__ == '__main__':
         - SSL 证书验证：在 requests.get() 中设置 `verify=false` 或者指定证书：`cert=('path/server.crt', 'path/key')`-- ssl 认证包括 秘钥和证书
         - 代理设置：在 requests.get() 中设置 proxies 参数
         - 超时设置，在 get() 函数中设置 timeout 参数
-        - 身份认证：在 get() 函数中设置 auth=HTTPBasicAuth(xx). requests 还支持其他认证，例如 OAuth，但需要安装 oauth 包： pip install requests_oauthlib 
+        - 身份认证：在 get() 函数中设置 auth=HTTPBasicAuth(xx). requests 还支持其他认证，例如 OAuth，但需要安装 oauth 包： pip install requests_oauthlib
     '''
