@@ -29,3 +29,12 @@ ajax 的全称是 asynchronous JavaScript and xml. 是一种异步的请求，�
 点击 response 选项卡，可以查看到 原始的 请求response 文本。
 
 通过分析 ajax 请求的地址，以及返回的 json 串内容，我们从中提前需要的信息。
+
+# 动态渲染页面爬取
+
+JavaScript 动态渲染页面的方法除了 ajax 外, 还有包括 Echarts 等多种方案。此外，例如淘宝等，它在使用 JavaScript 
+渲染页面时，接口中有很多加密参数，我们通常难以找到其规律，也很难直接分析 ajax 来抓取数据。
+
+为了解决上述问题，python 提供了许多模拟浏览器运行的库，例如 selenium, splash 等。这些库可以直接模拟浏览器运行，
+从而做到可以直接模拟获取浏览器中所看到的网页，做到可见即可爬。
+
